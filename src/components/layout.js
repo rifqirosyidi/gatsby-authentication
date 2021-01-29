@@ -3,7 +3,9 @@ import NavBar from "./nav-bar"
 
 const Layout = ({ children }) => (
   <>
-    <Navbar />
+    <NavBar />
     {children}
   </>
 )
+
+export default Layout
